@@ -26,9 +26,9 @@ import com.insurancepolicy.util.JwtUtil;
 @Service
 public class ClaimedPolicyService implements IClaimedPolicyService {
 
-	private static final String HTTP_LOCALHOST_9494_POLICY_SERVICE_POLICY_GET_POLICY = "http://localhost:8001/policy/getPolicy/";
+	private static final String HTTP_LOCALHOST_9494_POLICY_SERVICE_POLICY_GET_POLICY = "http://localhost:9494/Insurance-backend/policy/getPolicy/";
 
-	private static final String HTTP_LOCALHOST_9494_USER_SERVICE_USER_GET_USER = "http://localhost:8001/user/getUser/";
+	private static final String HTTP_LOCALHOST_9494_USER_SERVICE_USER_GET_USER = "http://localhost:9494/Insurance-backend/user/getUser/";
 
 	@Autowired
 	private RestTemplate restTemplate;
